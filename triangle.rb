@@ -1,5 +1,5 @@
 puts "Please enter the height of triangle"
-h = gets.chomp.to_i
+h = gets.to_f
 puts "Please enter the base of triangle"
-a = gets.chomp.to_i
-puts "Square of triangle is #{1.0/2.0*a*h}"
+a = gets.to_f
+puts "Square of triangle is #{0.5*a*h}"
